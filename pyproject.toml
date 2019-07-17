@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "webgraze"
+version = "0.1.0"
+description = "Command line web scraping utility"
+authors = ["Hay Kranen <h.kranen@kro-ncrv.nl>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+dataknead = "^0.2.0"
+beautifulsoup4 = "^4.7.1"
+requests = "^2.22.0"
+lxml = "^4.3"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
